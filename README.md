@@ -1,7 +1,8 @@
-# stars, Star and Symbol Rating Control for iOS 
+# Stars, fully configurable Rating Control 
 Lightweight Rating Control for Stars &amp; Symbols written in Swift 2.0 for iOS
 With stars you can easily add a Star(or any other Symbol you need) Rating Control to your Project.
 It includes a demo iOS App which shows the different modes and settings.
+Stars is similar to Rating Controls used at Amazon or in the App Store
 
 What can you do with stars:
 
