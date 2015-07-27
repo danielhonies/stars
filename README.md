@@ -4,7 +4,7 @@ With stars you can easily add a Star(or any other Symbol you need) Rating Contro
 It includes a demo iOS App which shows the different modes and settings.
 Stars is similar to Rating Controls used at Amazon or in the App Store
 
-What can you do with stars:
+What you can do with stars:
 
 * Display any Rating full or precise 
 * Add Standard Control Interface directly from Storyboard
