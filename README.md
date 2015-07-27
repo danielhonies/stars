@@ -12,6 +12,7 @@ What you can do with stars:
 * Stars can display any Rating and comes with two different sets of Stars
 * Can display any symbol graphic precise, you just need to provide an full-filled and a non-filled version of it 
 
+See the [screenshot.png](https://github.com/danielhonies/stars/blob/master/screenshot.png) for some examples !
 ## Setup
 
 Just add [RatingControl.swift](https://github.com/danielhonies/stars/blob/master/RatingSystem/RatingControl.swift) and [ImageUtil.swift](https://github.com/danielhonies/stars/blob/master/RatingSystem/ImageUtil.swift) to your xCode Project
