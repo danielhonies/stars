@@ -42,6 +42,7 @@
 		C17394051B666081001EBEC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C173940E1B66610E001EBEC1 /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 		C17394111B6677D5001EBEC1 /* ImageUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageUtil.swift; sourceTree = "<group>"; };
+		C17394141B66C6AD001EBEC1 /* License */ = {isa = PBXFileReference; lastKnownFileType = text; path = License; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +66,7 @@
 		C17393E21B666080001EBEC1 = {
 			isa = PBXGroup;
 			children = (
+				C17394141B66C6AD001EBEC1 /* License */,
 				C17393ED1B666080001EBEC1 /* RatingSystem */,
 				C17394021B666081001EBEC1 /* RatingSystemTests */,
 				C17393EC1B666080001EBEC1 /* Products */,
