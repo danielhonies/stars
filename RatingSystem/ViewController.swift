@@ -10,8 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    var filledStarImage = UIImage (named: "star10")
-    var emptyStarImage = UIImage(named: "star30")
+    var filledStarImage = UIImage (named: "hudHeart_full")
+    var emptyStarImage = UIImage(named: "hudHeart_empty")
     
     
     @IBOutlet weak var ratingControl: RatingControl!
@@ -29,10 +29,10 @@ class ViewController: UIViewController {
         self.view.addSubview(rating)
         self.view.addSubview(label)
         
-        //RatingControl with UserInput enabled and custom Star Images
+        //RatingControl with UserInput enabled and custom Heart Images
         let frameLabel1 = CGRect(x: 0, y: 160, width: 2000, height: 20)
         let label1: UILabel = UILabel(frame: frameLabel1)
-        label1.text = "Input enabled, Custom Values & Stars"
+        label1.text = "Input enabled, Custom Values & Hearts"
         self.view.addSubview(label1)
         
         let frameRating1 = CGRect(x:0, y: 200, width: 600, height: 50)
@@ -49,6 +49,8 @@ class ViewController: UIViewController {
         
         let frameRating2 = CGRect(x:0, y: 300, width: 600, height: 50)
         let rating2 = RatingControl(frame: frameRating2, rating: 3.65, spacing: 5, stars: 5)
+        rating2.filledStarImage = UIImage(named: "polygon_full")
+        rating2.emptyStarImage = UIImage(named: "polygon_grey")
         rating2.userInteractionEnabled = false
         self.view.addSubview(rating2)
         

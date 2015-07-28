@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
+      "filename" : "element_yellow_polygon_glossy.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "star1.png",
       "scale" : "2x"
     },
     {

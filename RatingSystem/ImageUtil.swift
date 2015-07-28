@@ -18,9 +18,9 @@ class ImageUtil: NSObject {
         let width: CGFloat
         let height: CGFloat
         posX = 0
-        posY = ((contextSize.height - contextSize.width) / 2)
+        posY = 0//((contextSize.height - contextSize.width) / 2)
         width = contextSize.width * length
-        height = contextSize.width
+        height = contextSize.height
         let rect: CGRect = CGRectMake(posX, posY, width, height)
         let imageRef: CGImageRef = CGImageCreateWithImageInRect(contextImage.CGImage, rect)!
         let image: UIImage = UIImage(CGImage: imageRef, scale: originalImage.scale, orientation: originalImage.imageOrientation)

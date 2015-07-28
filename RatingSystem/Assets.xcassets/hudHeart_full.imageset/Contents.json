@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "star30.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "hudHeart_full.png",
       "scale" : "2x"
     },
     {

@@ -30,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C16646D31B6829DA00A264D1 /* screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot.png; sourceTree = "<group>"; };
 		C17393EB1B666080001EBEC1 /* RatingSystem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RatingSystem.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C17393EE1B666080001EBEC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C17393F01B666080001EBEC1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -43,7 +44,6 @@
 		C173940E1B66610E001EBEC1 /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 		C17394111B6677D5001EBEC1 /* ImageUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageUtil.swift; sourceTree = "<group>"; };
 		C17394141B66C6AD001EBEC1 /* License */ = {isa = PBXFileReference; lastKnownFileType = text; path = License; sourceTree = "<group>"; };
-		C17394151B66D202001EBEC1 /* screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot.png; sourceTree = "<group>"; };
 		C17394161B66D43A001EBEC1 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -68,9 +68,9 @@
 		C17393E21B666080001EBEC1 = {
 			isa = PBXGroup;
 			children = (
+				C16646D31B6829DA00A264D1 /* screenshot.png */,
 				C17394161B66D43A001EBEC1 /* .gitignore */,
 				C17394141B66C6AD001EBEC1 /* License */,
-				C17394151B66D202001EBEC1 /* screenshot.png */,
 				C17393ED1B666080001EBEC1 /* RatingSystem */,
 				C17394021B666081001EBEC1 /* RatingSystemTests */,
 				C17393EC1B666080001EBEC1 /* Products */,
