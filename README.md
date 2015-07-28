@@ -10,7 +10,7 @@ What you can do with stars:
 * Add Standard Control Interface directly from Storyboard
 * Get User Input Rating
 * Stars can display any Rating and comes with two different sets of Stars
-* Can display any symbol graphic precise, you just need to provide an full-filled and a non-filled version of it 
+* Can display a precise rating with any symbol graphic , you just need to provide an full-filled and a non-filled version of it 
 
 See the [screenshot.png](https://github.com/danielhonies/stars/blob/master/screenshot.png) for some examples !
 ## Setup
