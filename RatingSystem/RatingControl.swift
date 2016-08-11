@@ -13,22 +13,22 @@ class RatingControl: UIView {
         }
     }
     var ratingButtons = [UIButton]()
-    @IBInspectable public  var spacing = 5{
+    @IBInspectable public  var spacing: Int = 5{
         didSet {
             setNeedsLayout()
         }
     }
-    @IBInspectable public var stars = 5{
+    @IBInspectable public var stars: Int = 5{
         didSet {
             buttonInit()
         }
     }
-    @IBInspectable public var filledStarImage = UIImage? (){
+    @IBInspectable public var filledStarImage: UIImage? = UIImage? (){
         didSet {
             updateButtonImages()
         }
     }
-    @IBInspectable public  var emptyStarImage = UIImage?(){
+    @IBInspectable public  var emptyStarImage: UIImage? = UIImage?(){
         didSet {
             updateButtonImages()
         }
@@ -144,4 +144,27 @@ class RatingControl: UIView {
             button.adjustsImageWhenHighlighted = false
         }
     }
+}
+
+
+class ImageUtil: NSObject {
+    
+    static func cropToLength(image originalImage: UIImage, length: CGFloat) -> UIImage {
+        let contextImage: UIImage = UIImage(CGImage: originalImage.CGImage!)
+        let contextSize: CGSize = contextImage.size
+        let posX: CGFloat
+        let posY: CGFloat
+        let width: CGFloat
+        let height: CGFloat
+        posX = 0
+        posY = 0//((contextSize.height - contextSize.width) / 2)
+        width = contextSize.width * length
+        height = contextSize.height
+        let rect: CGRect = CGRectMake(posX, posY, width, height)
+        let imageRef: CGImageRef = CGImageCreateWithImageInRect(contextImage.CGImage, rect)!
+        let image: UIImage = UIImage(CGImage: imageRef, scale: originalImage.scale, orientation: originalImage.imageOrientation)
+        
+        return image
+    }
+    
 }

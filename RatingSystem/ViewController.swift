@@ -55,7 +55,7 @@ class ViewController: UIViewController {
         self.view.addSubview(rating2)
         
         //RatingControl from Storyboard
-        ratingControl.rating = 3
+       // ratingControl.rating = 3
     }
 
     override func didReceiveMemoryWarning() {
