@@ -3,32 +3,32 @@
 //
 
 import UIKit
-
+@IBDesignable
 class RatingControl: UIView {
     // MARK: Properties
     
-    var rating: Double = 0 {
+    @IBInspectable public var rating: Double = 0 {
         didSet {
-            setNeedsLayout()
+           setNeedsLayout()
         }
     }
     var ratingButtons = [UIButton]()
-    var spacing = 5{
+    @IBInspectable public  var spacing = 5{
         didSet {
             setNeedsLayout()
         }
     }
-    var stars = 5{
+    @IBInspectable public var stars = 5{
         didSet {
             buttonInit()
         }
     }
-    var filledStarImage = UIImage (named: "filledStar"){
+    @IBInspectable public var filledStarImage = UIImage? (){
         didSet {
             updateButtonImages()
         }
     }
-    var emptyStarImage = UIImage(named: "emptyStar"){
+    @IBInspectable public  var emptyStarImage = UIImage?(){
         didSet {
             updateButtonImages()
         }
@@ -55,8 +55,28 @@ class RatingControl: UIView {
         buttonInit()
         
     }
+    override public func awakeFromNib() {
+        super.awakeFromNib()
+        
+        buttonInit()
+    }
+    
+    override public func prepareForInterfaceBuilder() {
+        super.prepareForInterfaceBuilder()
+        
+        buttonInit()
+    }
     
     func buttonInit(){
+        let bundle = NSBundle(forClass: RatingControl.self)
+        
+        if emptyStarImage == nil {
+            emptyStarImage = UIImage(named: "emptyStar", inBundle: bundle, compatibleWithTraitCollection: self.traitCollection)
+        }
+        if filledStarImage == nil {
+            filledStarImage = UIImage(named: "filledStar", inBundle: bundle, compatibleWithTraitCollection: self.traitCollection)
+        }
+        
         ratingButtons = [UIButton]()
         for _ in 0..<stars{
             let button = UIButton()
