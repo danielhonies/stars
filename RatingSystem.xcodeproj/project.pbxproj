@@ -15,8 +15,6 @@
 		C17394041B666081001EBEC1 /* RatingSystemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17394031B666081001EBEC1 /* RatingSystemTests.swift */; };
 		C173940F1B66610E001EBEC1 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C173940E1B66610E001EBEC1 /* RatingControl.swift */; };
 		C17394101B66610E001EBEC1 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C173940E1B66610E001EBEC1 /* RatingControl.swift */; };
-		C17394121B6677D5001EBEC1 /* ImageUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17394111B6677D5001EBEC1 /* ImageUtil.swift */; };
-		C17394131B6677D5001EBEC1 /* ImageUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17394111B6677D5001EBEC1 /* ImageUtil.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +40,6 @@
 		C17394031B666081001EBEC1 /* RatingSystemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingSystemTests.swift; sourceTree = "<group>"; };
 		C17394051B666081001EBEC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C173940E1B66610E001EBEC1 /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
-		C17394111B6677D5001EBEC1 /* ImageUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageUtil.swift; sourceTree = "<group>"; };
 		C17394141B66C6AD001EBEC1 /* License */ = {isa = PBXFileReference; lastKnownFileType = text; path = License; sourceTree = "<group>"; };
 		C17394161B66D43A001EBEC1 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -96,7 +93,6 @@
 				C17393F51B666081001EBEC1 /* Assets.xcassets */,
 				C17393F71B666081001EBEC1 /* LaunchScreen.storyboard */,
 				C17393FA1B666081001EBEC1 /* Info.plist */,
-				C17394111B6677D5001EBEC1 /* ImageUtil.swift */,
 			);
 			path = RatingSystem;
 			sourceTree = "<group>";
@@ -213,7 +209,6 @@
 				C17393F11B666080001EBEC1 /* ViewController.swift in Sources */,
 				C173940F1B66610E001EBEC1 /* RatingControl.swift in Sources */,
 				C17393EF1B666080001EBEC1 /* AppDelegate.swift in Sources */,
-				C17394121B6677D5001EBEC1 /* ImageUtil.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,7 +216,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C17394131B6677D5001EBEC1 /* ImageUtil.swift in Sources */,
 				C17394101B66610E001EBEC1 /* RatingControl.swift in Sources */,
 				C17394041B666081001EBEC1 /* RatingSystemTests.swift in Sources */,
 			);
